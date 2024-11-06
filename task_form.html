@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tutorial</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="header">
+    <h1>Алгоритмическая задача</h1>
+  </div>
+  <div id="sidebar">
+    <p>Навигация по сайту</p>
+    <p><a href="index.html">Главная(о самой игре и герое)</a></p>
+    <p><a href="page1.html">Характеристики героя Lash</a></p>
+    <p><a href="page2.html">Сборки и прокачка</a></p>
+    <p><a href="page3.html">Действия по игре</a></p>
+    <p><a href="form.html">Отзывы и предложения</a></p>
+    <p><a href="form_cont.html">Регистрация</a></p>
+    <p><a href="https://deadlocked.wiki" target="_blank"><img height="30px" src="images/website.jpg"></a></p>
+    <p>Навигация по странице</p>
+    <p><a href="#top" target="_self">В НАЧАЛО</a></p>
+    <p>Навигация по заданиям</p>
+    <p><a href="passport.html">passport</a></p>
+    <p><a href="DOM_JS.html">DOM_JS</a></p>
+    <p><a href="passport_change.html">Изменяем кириллицу на латиницу по клику</a></p>
+    <p><a href="task.html">task</a></p>
+    <p><a href="task_form.html" style="font-weight: bold; color: rgb(114, 117, 11);">task_form</a></p>
+  </div>
+  <div id="content">
+    <p name="formulation">Принадлежит ли целое С диапазону A-B? Если принадлежит - отправить все на сервер</p>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <ul>
+        <li>Для поисковика:<input name="q" value="search"></li>
+        <li>Формулировка задачи
+          <br><textarea cols="60" rows="4" id="task"
+            name="formulation">Если Z = 1/(XY) определено, отправить на сервер</textarea>
+        </li>
+        <li>X: <input id="X" name="X" type="number" value="1"></li>
+        <li>Y: <input id="Y" name="Y" type="number" value="3"></li>
+        <li>Результат решения задачи: <input id="Z" name="Z" value="не определен"></li>
+        <li>действие 1: <input id="count" type="button" value="Посчитать"></li>
+        <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+      </ul>
+    </form>
+  </div>
+  <div id="footer">&copy; Гопп Вадим</div>
+</body>
+<script src="task_form.js"></script>
+
+</html>

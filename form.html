@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tutorial</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="header">
+    <h1>Руководство по игре</h1>
+  </div>
+  <div id="sidebar">
+    <p>Навигация по сайту</p>
+    <p><a href="index.html">Главная(о самой игре и герое)</a></p>
+    <p><a href="page1.html">Характеристики героя Lash</a></p>
+    <p><a href="page2.html">Сборки и прокачка</a></p>
+    <p><a href="page3.html">Действия по игре</a></p>
+    <p><a href="form.html" style="font-weight: bold; color: rgb(114, 117, 11);">Отзывы и предложения</a></p>
+    <p><a href="form_cont.html">Регистрация</a></p>
+    <p><a href="https://deadlocked.wiki" target="_blank"><img height="30px" src="images/website.jpg"></a></p>
+    <p>Навигация по странице</p>
+    <p><a href="#top" target="_self">В НАЧАЛО</a></p>
+    <p>Навигация по заданиям</p>
+    <p><a href="passport.html">passport</a></p>
+    <p><a href="DOM_JS.html">DOM_JS</a></p>
+    <p><a href="passport_change.html">Изменяем кириллицу на латиницу по клику</a></p>
+    <p><a href="task.html">task</a></p>
+    <p><a href="task_form.html">task_form</a></p>
+  </div>
+  <div id="content">
+    <h2>Отзывы и предложения</h2>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <p>Для поисковика:<input type="hidden" name="q" value="search"></p>
+      <p>Логин: <input type="Text" name="login" size=20 value="IvanovIvanIvanovich"></p>
+      <p>Пароль: <input type="Number" name="age" size=20 value="123"></p>
+      <p>Тип учетной записи:
+        <input type="Radio" name="accaunt" value="Dev">Редактор
+        <input type="Radio" name="accaunt" value="Reader" checked>Читатель
+      </p>
+      <p>Причина обращения:
+      <ul>
+        <li><input type="Checkbox" name="reason" value="Feedback" checked>Обратная связь по гайду</li>
+        <li><input type="Checkbox" name="reason" value="suggestion" checked>Предложение добавить свою информацию</li>
+        <li><input type="Checkbox" name="reason" value="incorrectInf" checked>Неверная информация, ошибки</li>
+        <li><input type="Checkbox" name="reason" value="bags" checked>Баги на самом сайте</li>
+      </ul>
+      </p>
+
+      <p>Кто обращается
+        <select name="person_role">
+          <OPTION value="Student">Студент</OPTION>
+          <OPTION value="Lecturer">Преподаватель</OPTION>
+          <OPTION value="CommonUser">Обычный пользователь</OPTION>
+        </select>
+      </p>
+
+      <p> Обращение:
+        <br>
+        <TEXTAREA cols=80 rows=4 name="textarea">Ваше обращение</TEXTAREA>
+      </p>
+
+      <p>Дата обращения: <input type="date" name="user_date" value='2024-10-02'></p>
+
+      <p> Приложенный файл, скриншот<select name="ContainFiles">
+          <OPTION value="No"> нет </OPTION>
+          <OPTION value="Yes"> да</OPTION>
+        </select></p>
+
+      <p>Название файла: <input type="Техт" name="screenshot" value="screen.png" size='30'></p>
+
+      <input type="hidden" name="function" value="page">
+      <input type="hidden" name="page_id" value="5">
+
+      <p>
+        <input type="Reset" name="Reset" value="Обновить">
+        <input type="Submit" name="submit" value="Отправить">
+      </p>
+
+    </form>
+    </form>
+  </div>
+  <div id="footer">&copy; Гопп Вадим</div>
+</body>
+
+</html>
